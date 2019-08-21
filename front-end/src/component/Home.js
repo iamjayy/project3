@@ -1,5 +1,5 @@
 import React from "react";
-import Posts from "../exportPosts/UserPosts";
+import Posts from "../exportPosts/Posts";
 
 const Home = () => (
   <div>
@@ -9,7 +9,7 @@ const Home = () => (
     </div>
 
     <div className="container">
-      <Posts />
+    <Posts />
     </div>
   </div>
 );

@@ -187,8 +187,7 @@ class SinglePost extends Component {
                     this.renderPost(post)
                 )}
 
-
-                <Comment postId={post._id} comments={comments.reverse()} updateComments={this.updateComments} />
+<Comment postId={post._id} comments={comments.reverse()} updateComments={this.updateComments} />
 
             </div>
         );
